@@ -1,9 +1,13 @@
 @import "_common";
 
 .home {
-	padding: 82px 0;
+	padding: 82px 0 146px;
 
 	color: $Primary;
+
+	background-image: url("../img/bg-image.png");
+	background-repeat: no-repeat;
+	background-position: 810px bottom;
 
 	&__plug {
 		display: inline-block;
@@ -23,8 +27,31 @@
 		font-size: 64px;
 		line-height: 1.28;
 		letter-spacing: 1.8px;
+
+		margin-bottom: 40px;
 	}
 
 	&__buttons {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+
+		.btn:first-child {
+			margin-right: 15px;
+			padding-right: 70px;
+
+			position: relative;
+		}
+
+		.btn:first-child::after {
+			content: "";
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			top: 50%;
+			right: 38px;
+			transform: translateY(-50%);
+			background-image: url("../img/mark.svg");
+		}
 	}
 }

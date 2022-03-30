@@ -10,8 +10,31 @@ body {
 
 .container {
   max-width: 1182px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.btn {
+  font-size: 24px;
+  width: 275px;
+  height: 85px;
+  padding: 24px 33px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.btn_filled {
+  color: #f3f2ff;
+  background-color: #4e5e80;
+}
+
+.btn_empty {
+  color: #4d5566;
+  background-color: transparent;
+  border: 4px solid #4d5566;
+  padding: 20px 62px;
 }
 
 nav {

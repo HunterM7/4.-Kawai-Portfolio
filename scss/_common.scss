@@ -5,6 +5,7 @@
 $Primary: #403930;
 $Primary2: #594f43;
 $Secondary: #4e5e80;
+$Secondary2: #4d5566;
 $Bg1: #ffeed9;
 $Bg2: #ffddbf;
 $Black: #000;
@@ -29,8 +30,34 @@ body {
 
 .container {
 	max-width: 1182px;
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 	padding: 0 20px;
+}
+
+.btn {
+	font-size: 24px;
+
+	width: 275px;
+	height: 85px;
+	padding: 24px 33px;
+	border-radius: 16px;
+
+	text-align: center;
+
+	&_filled {
+		color: $Light;
+		background-color: $Secondary;
+	}
+
+	&_empty {
+		color: $Secondary2;
+		background-color: transparent;
+		border: 4px solid $Secondary2;
+
+		padding: 20px 62px;
+	}
 }
 
 // ------------------------------------
