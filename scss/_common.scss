@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@600&family=Patrick+Hand&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+// Colors
+
+$Primary: #403930;
+$Primary2: #594f43;
+$Secondary: #4e5e80;
+$Bg1: #ffeed9;
+$Bg2: #ffddbf;
+$Black: #000;
+$White: #fff;
+$Light: #f3f2ff;
+
+// ------------------------------------
+
+// Common
+
+body {
+	// font-family: "Eczar", serif;
+	// font-family: "Patrick Hand", cursive;
+	font-family: "Work Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	color: $Primary2;
+
+	background-color: $Bg1;
+}
+
+.container {
+	max-width: 1182px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+// ------------------------------------

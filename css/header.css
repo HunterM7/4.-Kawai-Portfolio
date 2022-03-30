@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@600&family=Patrick+Hand&family=Work+Sans:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #594f43;
+  background-color: #ffeed9;
+}
+
+.container {
+  max-width: 1182px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav {
+  padding: 32px 0;
+}
+
+nav .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .navigation__item {
+  margin-right: 34px;
+}
+
+nav .navigation__item:last-child {
+  margin-right: 0;
+}
