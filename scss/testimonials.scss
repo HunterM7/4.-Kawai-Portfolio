@@ -1,0 +1,63 @@
+@import "_common";
+
+.testimonials {
+	padding: 128px 0;
+
+	text-align: center;
+
+	&__title {
+		margin-bottom: 8px;
+	}
+
+	&__p {
+		margin-bottom: 98px;
+	}
+
+	&__box {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__btn {
+		background-image: url("../img/btn.svg");
+		background-color: transparent;
+		background-repeat: no-repeat;
+		padding: 14px 8px;
+
+		&_prev {
+			transform: rotate(180deg);
+		}
+
+		&_next {
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: row;
+
+		margin: 0 100px;
+	}
+
+	&__item {
+		max-width: 460px;
+
+		padding: 0 35px;
+
+		p {
+			font-weight: 400;
+
+			margin-bottom: 21px;
+		}
+
+		span {
+			font-weight: 700;
+		}
+	}
+
+	.container {
+		max-width: 1276px;
+	}
+}

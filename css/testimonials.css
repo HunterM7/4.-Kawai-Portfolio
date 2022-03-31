@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@600&family=Patrick+Hand&family=Work+Sans:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #594f43;
+  background-color: #ffeed9;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.container {
+  max-width: 1182px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+h1 {
+  font-family: "Eczar", serif;
+  font-size: 64px;
+  line-height: 1.28;
+  letter-spacing: 1.8px;
+  color: #403930;
+}
+
+h2 {
+  font-family: "Eczar", serif;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #403930;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #403930;
+}
+
+.btn {
+  font-size: 24px;
+  width: 275px;
+  height: 85px;
+  padding: 24px 33px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.btn_filled {
+  color: #f3f2ff;
+  background-color: #4e5e80;
+}
+
+.btn_empty {
+  color: #4d5566;
+  background-color: transparent;
+  border: 4px solid #4d5566;
+  padding: 20px 62px;
+}
+
+.testimonials {
+  padding: 128px 0;
+  text-align: center;
+}
+
+.testimonials__title {
+  margin-bottom: 8px;
+}
+
+.testimonials__p {
+  margin-bottom: 98px;
+}
+
+.testimonials__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonials__btn {
+  background-image: url("../img/btn.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  padding: 14px 8px;
+}
+
+.testimonials__btn_prev {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.testimonials__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 100px;
+}
+
+.testimonials__item {
+  max-width: 460px;
+  padding: 0 35px;
+}
+
+.testimonials__item p {
+  font-weight: 400;
+  margin-bottom: 21px;
+}
+
+.testimonials__item span {
+  font-weight: 700;
+}
+
+.testimonials .container {
+  max-width: 1276px;
+}
