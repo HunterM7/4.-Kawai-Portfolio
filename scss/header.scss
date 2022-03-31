@@ -1,19 +1,30 @@
 @import "_common";
 
-nav {
-	padding: 32px 0;
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 
-	.navigation {
-		display: flex;
-		justify-content: start;
-		align-items: center;
+	background-color: $Bg1;
 
-		&__item {
-			margin-right: 34px;
-		}
+	z-index: 100;
 
-		&__item:last-child {
-			margin-right: 0;
+	nav {
+		padding: 32px 0;
+
+		.navigation {
+			display: flex;
+			justify-content: start;
+			align-items: center;
+
+			&__item {
+				margin-right: 34px;
+			}
+
+			&__item:last-child {
+				margin-right: 0;
+			}
 		}
 	}
 }

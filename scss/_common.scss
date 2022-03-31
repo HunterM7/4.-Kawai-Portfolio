@@ -8,6 +8,7 @@ $Secondary: #4e5e80;
 $Secondary2: #4d5566;
 $Bg1: #ffeed9;
 $Bg2: #ffddbf;
+$Bg3: #fff8f2;
 $Black: #000;
 $White: #fff;
 $Light: #f3f2ff;
@@ -26,6 +27,9 @@ body {
 	color: $Primary2;
 
 	background-color: $Bg1;
+
+	overflow-x: hidden;
+	position: relative;
 }
 
 .container {
@@ -34,6 +38,31 @@ body {
 	height: 100%;
 	margin: 0 auto;
 	padding: 0 20px;
+
+	position: relative;
+}
+
+h1 {
+	font-family: "Eczar", serif;
+	font-size: 64px;
+	line-height: 1.28;
+	letter-spacing: 1.8px;
+	color: $Primary;
+}
+
+h2 {
+	font-family: "Eczar", serif;
+	font-size: 40px;
+	line-height: 50px;
+	letter-spacing: 1px;
+	color: $Primary;
+}
+
+h3 {
+	font-size: 32px;
+	line-height: 48px;
+	font-weight: 600;
+	color: $Primary;
 }
 
 .btn {

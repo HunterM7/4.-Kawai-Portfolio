@@ -1,0 +1,56 @@
+@import "_common";
+
+.recent-work {
+	padding: 100px 0;
+
+	background-color: $Bg2;
+
+	&__title {
+		margin-bottom: 42px;
+	}
+
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		background-color: $Bg3;
+		border-radius: 24px;
+
+		height: 400px;
+		padding: 0 41px 0 72px;
+		margin-bottom: 32px;
+	}
+
+	&__item:last-child {
+		margin-bottom: 0;
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		max-width: 400px;
+
+		h3 {
+			margin-bottom: 5px;
+		}
+
+		p {
+			font-size: 24px;
+			font-weight: 500;
+			line-height: 36px;
+
+			margin-bottom: 25px;
+		}
+
+		a {
+			font-size: 24px;
+			font-weight: 600;
+			line-height: 36px;
+
+			color: $Secondary;
+		}
+	}
+}

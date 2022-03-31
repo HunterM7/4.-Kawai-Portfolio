@@ -1,13 +1,9 @@
 @import "_common";
 
 .home {
-	padding: 82px 0 146px;
+	padding: 176px 0 146px;
 
 	color: $Primary;
-
-	background-image: url("../img/bg-image.png");
-	background-repeat: no-repeat;
-	background-position: 810px bottom;
 
 	&__plug {
 		display: inline-block;
@@ -20,14 +16,17 @@
 
 		padding: 12px 24px;
 		margin-bottom: 24px;
+
+		position: relative;
+
+		img {
+			position: absolute;
+
+			z-index: -100;
+		}
 	}
 
 	&__title {
-		font-family: "Eczar", serif;
-		font-size: 64px;
-		line-height: 1.28;
-		letter-spacing: 1.8px;
-
 		margin-bottom: 40px;
 	}
 
@@ -53,5 +52,13 @@
 			transform: translateY(-50%);
 			background-image: url("../img/mark.svg");
 		}
+	}
+
+	&__bg {
+		position: absolute;
+		right: 0;
+		bottom: -146px;
+
+		z-index: -100;
 	}
 }

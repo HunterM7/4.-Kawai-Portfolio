@@ -6,6 +6,8 @@ body {
   line-height: 1.5;
   color: #594f43;
   background-color: #ffeed9;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .container {
@@ -14,6 +16,30 @@ body {
   height: 100%;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
+}
+
+h1 {
+  font-family: "Eczar", serif;
+  font-size: 64px;
+  line-height: 1.28;
+  letter-spacing: 1.8px;
+  color: #403930;
+}
+
+h2 {
+  font-family: "Eczar", serif;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #403930;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #403930;
 }
 
 .btn {
