@@ -1,0 +1,48 @@
+@import "_common"
+
+footer
+	padding: 130px 0
+
+.footer
+
+	&__title
+		max-width: 890px
+		margin-bottom: 56px
+
+	&__contacts
+		display: flex
+		justify-content: space-between
+		align-items: end
+
+.socials
+	display: flex
+	align-items: center
+
+	&__item
+		margin-left: 24px
+
+		a
+			display: block
+			width: 32px
+			height: 32px
+			background-position: center
+			background-repeat: no-repeat
+			background-size: cover
+
+		&:first-child
+			margin-left: 0
+
+			a
+				background-image: url('../img/dribbble.svg')
+
+		&:nth-child(2)
+			a
+				background-image: url('../img/instagram.svg')
+
+		&:nth-child(3)
+			a
+				background-image: url('../img/pinterest.svg')
+
+		&:last-child
+			a
+				background-image: url('../img/linkedin.svg')
